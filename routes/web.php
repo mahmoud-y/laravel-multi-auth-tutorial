@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/confirmed', function () {
+    return 'password confirmed';
+})->middleware(['auth', 'password.confirm']);
+
+Route::get('/verified', function () {
+    return 'email verified';
+})->middleware('verified');
