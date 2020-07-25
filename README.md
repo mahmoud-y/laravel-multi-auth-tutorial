@@ -6,9 +6,20 @@ Blog will be the tutorial subject where we implement admin auth alongside the de
 
 Tutorial code is available here [laravel-multi-auth-tutorial](https://github.com/mhmudyns/laravel-mutli-auth-tutorial)
 
+Following are the steps that will go through
+
+- [Initialization](#initialization)
+- [Model and Migration](#model-and-migration)
+- [Configuration](#configuration)
+- [Service Provider](#service-provider)
+- [Middlewares](#middlewares)
+- [Controllers](#controllers)
+- [Routing](#routing)
+- [Views](#views)
+
 # Initialization
 
-Create a fresh laravel installation with authentication scaffolding included
+Create a fresh laravel installation with authentication scaffolding included and configure [Database](https://laravel.com/docs/7.x/database#configuration) and [Mail](https://laravel.com/docs/7.x/mail#mail-and-local-development) in **.env**
 
 ```
 laravel new blog --auth
