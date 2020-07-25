@@ -6,7 +6,7 @@ Blog will be the tutorial subject where we implement admin auth alongside the de
 
 Tutorial code is available here [laravel-multi-auth-tutorial](https://github.com/mhmudyns/laravel-mutli-auth-tutorial)
 
-Following are the steps that will go through
+Following are the steps that we'll go through
 
 - [Initialization](#initialization)
 - [Model and Migration](#model-and-migration)
